@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PopFlix</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/main.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="logo" href="/navbar.html">
+        <img src="/assests/PopFlix_logo_primary_whiteTagline.png" alt="popFlixLogo">
+      </a>
+
+      <!-- Mobile toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-5" href="/navbar.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-5" id="active" href="#">Library</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link fs-5" href="pages/watchlist.html">Watchlist</a>
+          </li>
+        </ul>
+
+        <span class="navbar-text">
+          <form class="d-flex" role="search">
+            <button class="btn" type="submit">
+              <i class="fa-solid fa-magnifying-glass fs-5"></i>
+            </button>
+            <input class="form-control me-2 searchBox" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </span>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Bootstrap Js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
