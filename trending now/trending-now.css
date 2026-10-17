@@ -70,7 +70,7 @@ h3 {
   background: #e73700;
 }
 
-/* ===== Game Section ===== */
+/* Game Section */
 .game-section {
   padding: 60px 50px;
 }
@@ -141,7 +141,7 @@ h3 {
   z-index: 5;
 }
 
-/* ===== Responsive ===== */
+/* Responsive */
 @media (min-width: 992px) and (max-width: 1199px) {
   h2 {
     margin-bottom: 32px;

@@ -1,4 +1,4 @@
-/* ===================== GLOBAL ===================== */
+/* GLOBAL */
 @charset "utf-8";
 
 * {
@@ -10,7 +10,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background: #0f0f0f;          /* dark background to match navbar */
+  background: #0f0f0f;
   color: #fff;
 }
 
@@ -30,7 +30,7 @@ a:hover {
   color: #53CAE4;
 }
 
-/* ===================== NAVBAR ===================== */
+/* NAVBAR */
 .navbar {
   margin: 20px 40px;
   background-color: #0f0f0f;
@@ -102,7 +102,7 @@ form:focus-within .fa-magnifying-glass {
   color: #53CAE4;
 }
 
-/* ===================== TITLES ===================== */
+/* TITLES */
 h2 {
   margin-bottom: 48px;
   padding-bottom: 16px;
@@ -146,7 +146,7 @@ h3 {
   background: #e73700;
 }
 
-/* ===== Game Section ===== */
+/* Game Section */
 .game-section {
   padding: 60px 50px;
 }
@@ -217,7 +217,7 @@ h3 {
   z-index: 5;
 }
 
-/* ===== Responsive ===== */
+/* Responsive */
 @media (min-width: 992px) and (max-width: 1199px) {
   h2 {
     margin-bottom: 32px;
